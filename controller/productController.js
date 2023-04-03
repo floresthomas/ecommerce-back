@@ -94,7 +94,7 @@ const productPayment = (req, res) => {
       picture_url: product?.images[0],
       description: product?.description,
       quantity: product?.quantity,
-      unit_price: product?.price * product?.quantity
+      unit_price: product?.price
     };
   });
 
